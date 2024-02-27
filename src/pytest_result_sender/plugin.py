@@ -8,6 +8,6 @@ def pytest_configure():
 
 
 def pytest_unconfigure():
-    #配置卸载完毕之后执行，所有测试用例执行后执行
+    # 配置卸载完毕之后执行，所有测试用例执行后执行
 
     print(f"{datetime.now()} pytest_unconfigure")
